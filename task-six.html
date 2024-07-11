@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+</head>
+<body>
+    <h2>Survey Form</h2>
+    
+    <from>
+        <!-- Multiple Choice Question -->
+        <p>1. How did you hear about this webinar</p>
+
+        <input type="radio" id="social_media" name="source" value="Social Media">
+        <label for="social_media">Social Media</label><br>
+    
+        <input type="radio" id="friend" name="source" value="Friend">
+        <label for="friend">Friend</label><br>
+    
+        <input type="radio" id="online_ad" name="source" value="Online Advertisement">
+        <label for="online_ad">Online Advertisement</label><br>
+    
+        <input type="radio" id="company_website" name="source" value="Company Website">
+        <label for="company_website">Company Website</label><br><br>
+
+
+        <!-- Checkboxes for selecting multiple options -->
+        <p>2. Which course are you interested in? (Select all that apply)</p>
+
+        <input type="checkbox" id="python" name="programming" value="python"></input>
+        <label for="python">Python</label><br>
+
+        <input type="checkbox" id="java" name="programming" value="java"></input>
+        <label for="java">Java</label><br>
+
+        <input type="checkbox" id="C++" name="programming" value="C++"></input>
+        <label for="C++">C++</label><br>
+
+        <input type="checkbox" id="C" name="programming" value="C"></input>
+        <label for="C">C</label><br><br>
+
+
+       <!-- Text input field for short answers -->
+        <p>3. <label for="name">Name:</label>
+              <input type="text" id="name" name="name" placeholder="Enter your name">
+        </p>
+
+    
+        <!-- Textarea for longer responses -->
+        <p>4. What are your views about this webinar?</p>
+
+        <textarea id="view" name="view" rows="8" cols="80"></textarea><br>
+
+        <!-- Rating scale from 1-5 -->
+        <p>5. Rate your experience:</p>
+         
+        <input type="radio" id="rate1" name="experience" value="1"></input>
+        <label for="rate1">1</label>
+
+        <input type="radio" id="rate2" name="experience" value="2"></input>
+        <label for="rate2">2</label>
+
+        <input type="radio" id="rate3" name="experience" value="3"></input>
+        <label for="rate3">3</label>
+
+        <input type="radio" id="rate4" name="experience" value="4"></input>
+        <label for="rate4">4</label>
+
+        <input type="radio" id="rate5" name="experience" value="5"></input>
+        <label for="rate5">5</label>
+
+
+        <!-- Dropdown menu for selecting options -->
+        <p>6. <label for="dropdown">Which state are you from?</label></p>
+        <select id="state" name="state">
+            <option value="karnataka">Karnataka</option>
+            <option value="maharashtra">Maharashtra</option>
+            <option value="punjab">Punjab</option>
+            <option value="west bengal">West bengal</option>
+            <option value="telangana">Telangana</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <!-- Radio button for selecting single options -->
+        <p>7. Are you willing to join the course?</p>
+
+        <input type="radio" id="yes" name="comments" value="yes">
+        <label for="yes">Yes</label>
+
+        <input type="radio" id="no" name="comments" value="no">
+        <label for="no">No</label><br><br>
+        
+        <input type="submit" value="Submit">
+        </form>
+</body>
+</html>
